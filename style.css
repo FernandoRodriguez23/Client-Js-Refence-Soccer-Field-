@@ -1,0 +1,23 @@
+html {
+    background-color: rgb(225, 238, 155);
+    font-size: 20px;
+}
+
+#field{
+    width: 65vw;
+    height: 55vh;
+    border: rgb(255, 255, 255) solid 7px;
+    background-color: rgb(134, 167, 84);
+    position: relative;
+    overflow: hidden;
+    cursor: url(soocer.png), pointer;
+    margin: auto;
+}
+#ball{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 35px;
+    transition: all .25s;
+}
